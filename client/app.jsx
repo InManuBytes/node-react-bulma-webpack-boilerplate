@@ -10,7 +10,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="section">
         <h1 className="title">React, Wepack, Bulma Boilerplate</h1>
         <p className="subtitle">
           Bulma, the modern CSS framewrok based on Flexbox, see setup <a href="https://bulma.io/documentation/customize/with-webpack/">here</a>.
@@ -35,7 +35,12 @@ class App extends Component {
         </div>
 
         <div className="buttons">
-          <button className="button is-primary">Primary</button>
+          <button className="button is-primary">
+            <a href="https://github.com/manuelag19/node-react-bulma-webpack-boilerplate" className="icon">
+              <i className="fab fa-github"></i>
+            </a>
+            <span>GitHub</span>
+          </button>
           <button className="button is-link">Link</button>
         </div>
       </div>
